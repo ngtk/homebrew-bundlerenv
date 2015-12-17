@@ -7,4 +7,11 @@ class Bundlerenv < Formula
   def install
     system "make", "install", "prefix=#{prefix}"
   end
+
+  def caveats
+    <<-EOS.undent
+    To enable shims and autocompletion add to your profile:
+      if which bundle > /dev/null; then eval "$(bundlerenv init -)"; fi
+    EOS
+  end
 end
