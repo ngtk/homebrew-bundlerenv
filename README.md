@@ -1,1 +1,1 @@
-# homebrew-bundlerenv
+# [bundlerenv](http://github.com/ngtk/bundlerenv)
