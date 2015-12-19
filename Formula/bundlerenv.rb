@@ -1,8 +1,8 @@
 class Bundlerenv < Formula
   desc "use Bundler version specified by Gemfile.lock"
   homepage "https://github.com/ngtk/bundlerenv"
-  url "https://github.com/ngtk/bundlerenv/archive/v0.1.0.tar.gz"
-  sha256 "3767ba061d29a104c3b81f5100c4140c1fcb1c646787008774109062d7297d19"
+  url "https://github.com/ngtk/bundlerenv/archive/v0.2.0.tar.gz"
+  sha256 "5af173921e9d6673e97a1cc32a8bf02c2da8770ba546e2dedb0b13c57804be69"
 
   def install
     system "make", "install", "prefix=#{prefix}"
